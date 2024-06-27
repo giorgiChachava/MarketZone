@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarketZone</title>
+    <link rel="icon" type="image/x-icon" href="photos/favicon.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="logo-div">
+          <img src="photos/logo.png" alt="logo" />
+        </div>
+        <ul class="navigation">
+          <a href="./index.html">
+            <li><h3 style="color: rgb(237, 11, 11)">Product</h3></li></a
+          >
+          <a href="./profile.html">
+            <li><h3>Profile</h3></li></a
+          >
+        </ul>
+      </div>
+    </header>
+  <div id="left-div">
+      <button id="lowToHigh" class="sort-button" onclick="sortByPrice(event)">
+        Sort by Price: Low to High
+      </button>
+      <button id="highToLow" class="sort-button" onclick="sortByPrice(event)">
+        Sort by Price: High to Low
+      </button>
+    </div>
+    <main id="main"></main>
+    <script src="index.js"></script>
+  </body>
+</html>
